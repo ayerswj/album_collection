@@ -6,7 +6,10 @@ public class MainApp {
 
         AlbumCollectionManager.loadAlbumCollectionFromDatabase();
 
-        UserInterface userInterface = new UserInterface();
-        userInterface.displayMainMenu();
+//        UserInterface userInterface = new UserInterface();
+//        userInterface.displayMainMenu();
+
+        GraphicalUserInterface graphicalUserInterface = new GraphicalUserInterface();
+        graphicalUserInterface.createAndShowGUI();
     }
 }
